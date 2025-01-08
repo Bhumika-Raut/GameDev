@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000912;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  #game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(rgba(156, 230, 209, 0.7), rgb(2, 63, 63));
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #choices button {
+    background-color: #001021;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #choices button:hover {
+    background-color: #0056b3;
+  }
+  
+  #reset {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #reset:hover {
+    background-color: #a71d2a;
+  }
+  
+  #user-choice, #computer-choice, #result {
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  #scores {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  #player-score,
+  #computer-score {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  @media (max-width: 600px) {
+    #game-container {
+      padding: 10px;
+    }
+  
+    #choices button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    #reset {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
