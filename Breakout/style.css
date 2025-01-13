@@ -1,0 +1,32 @@
+.grid {
+    position: relative;
+    width: 560px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(to right, #ff7f7f, #ffa500);
+    border-radius: 5px;
+}
+
+.paddle {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
