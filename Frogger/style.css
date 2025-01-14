@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #gameCanvas {
+    border: 2px solid #000;
+  }
+  
+  .controls {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #timer {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
